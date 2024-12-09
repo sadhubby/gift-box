@@ -1,0 +1,116 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #071e22;
+}
+.gift-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 20%;
+}
+.gift-container > .gift-box{
+    position: absolute;
+    height: 200px;
+    width: 300px;
+    background: #f2545b;
+    animation: Bounce 4s ease infinite forwards;
+}
+@keyframes Bounce {
+    0%{
+        transform: translateY(-20px);
+    }
+    50%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(-20px);
+    }
+}
+.gift-box::before{
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 200px;
+    background: #d5f2e3;
+    left: 124px;
+}
+.gift-box::after{
+    content:'';
+    position: absolute;
+    box-shadow: inset 0 10px rgba(0,0,0,.3);
+    width: 300px;
+    height: 200px;
+}
+.gift-box.active{
+    animation: none;
+}
+.click{
+    position: absolute;
+    background: #f2545b;
+    width: 340px;
+    height: 75px;
+    top: -75px;
+    left:-20px;
+    cursor: pointer;
+    z-index: 1;
+    /* this transform is for the cover. remove this or comment it, the cover should come back on */
+    transition: 1s ease;
+}
+.click.active{
+    transform: translate(-250px, 100px) rotate(-45deg);
+    /* transform: translateY(-240px); */
+}
+.click::before{
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 75px;
+    background: #d5f2e3;
+    left: 144px;
+    z-index: 2;
+}
+.click::after{
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 0;
+    border-bottom: 60px solid #d5f2e3;
+    border-top: 60px solid #d5f2e3;
+    border-left: 0px solid transparent;
+    border-right: 60px solid transparent;
+    transform: rotate(-90deg);
+    top: -92.5px;
+    left: 136px;
+    z-index: 3;
+}
+.gift-container > .shadow{
+    content: '';
+    position: relative;
+    width: 340px;
+    height: 40px;
+    background: rgba(0,0,0,.4);
+    top: 100px;
+    border-radius: 50%;
+    left: -0.5px;
+    animation: BounceOut 4s ease infinite forwards;
+}
+.gift-container > .shadow.active{
+    animation: none;
+}
+@keyframes BounceOut {
+    0%{
+        transform: translateY(20px);
+        scale: .7;
+    }
+    50%{
+        transform: translateY(0px);
+        scale: 1;
+    }
+    100%{
+        transform: translateY(20px);
+        scale: .7;
+    }
+}

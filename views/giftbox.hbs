@@ -1,4 +1,4 @@
-<div class="gift-container">
+{{!-- <div class="gift-container">
         <div class="shadow">
         </div>
         <div class="gift-box">
@@ -15,4 +15,40 @@
         </div>
     </div>
 </div>
+<script src="/js/giftbox.js"></script> --}}
+<div class="gift-container">
+    <div class="shadow"></div>
+    <div class="gift-box">
+        <div class="click"></div>
+    </div>
+</div>
+
+<div class="overlay">
+    <div class="letter">
+        <div class="letter-content">
+            <!-- Section 1: Letter Content -->
+            <div class="letter-section message-section">
+                <div class="letter-body">
+                    <p>Dear {{name}},</p>
+                    <p>{{message}}</p>
+                    <p>{{greeting}}<br>Evan</p>
+                    <p>P.S., go to the next page for your gift.</p>
+                </div>
+                <button class="close-button">Close</button>
+                <button class="next-button">
+                    <img src='/imgs/pointer.png' class="next-image">
+                </button>
+            </div>
+
+            <!-- Section 2: Gift Content -->
+            <div class="letter-section gift-section" style="display: none;">
+                <div class="letter-body">
+                    <p>Your gift: {{gift}}</p>
+                </div>
+                <button class="close-button">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
 <script src="/js/giftbox.js"></script>

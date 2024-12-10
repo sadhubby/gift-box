@@ -9,6 +9,10 @@ const giftSchema = new mongoose.Schema({
         type: String,
         required: true
     },
+    greeting:{
+        type: String,
+        required: true
+    },
     gift:{
         type: String,
         required: true

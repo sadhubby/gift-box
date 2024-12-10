@@ -5,25 +5,29 @@ const handlebars = require('express-handlebars');
 const path = require('path');
 const session = require('express-session');
 
-const connectDB = require('./src/scripts/connectDB');
-const populateDB = require('./src/scripts/populateDB.js');
-
+//get values from .env
 require('dotenv').config();
 
+//router file
 const router = require("./src/routes/router.js");
 
-server.use(express.urlencoded({extended: true}));
+//scripts
+const connectDB = require('./src/scripts/connectDB');
+const populateDB = require('./src/scripts/populateDB.js');
+const isAuthenticated = require('./src/scripts/authentication.js');
 
+//use all in public
 server.use(express.static(path.join(__dirname, 'public')));
 
-
+//encoding
+server.use(express.urlencoded({extended: true}));
 server.use(bodyParser.urlencoded({ extended: true }));
 server.use(express.json());
 server.use(express.urlencoded({ extended: true }));
 
+//view engine, will view hbs files
 server.set('view engine', 'hbs');
 server.use(bodyParser.urlencoded({extended: true}));
-
 server.engine('hbs', handlebars.engine({
     extname: 'hbs',
     runtimeOptions:{
@@ -32,6 +36,7 @@ server.engine('hbs', handlebars.engine({
     }
 }));
 
+//session
 server.use(session({
     secret: 'SESSION_SECRET',
     resave: false,
@@ -39,7 +44,22 @@ server.use(session({
     cookie: {secure : false, maxAge: 1209600000}
 }))
 
+//server will use the router js
 server.use(router);
+
+server.use((req, res, next) =>{
+    const publicRoutes = ['/login', '/css/login.css'];
+    if(publicRoutes.includes(req.path) || req.session.isAuthenticated){
+        return next();
+    }
+    res.redirect('/login');
+})
+
+server.use((req, res, next) => {
+    const isAuthenticated = !!req.session.isAuthenticated; // Check session authentication
+    res.locals.isAuthenticated = isAuthenticated;         // Pass to views
+    next();
+});
 
 
 async function connectToDB(){

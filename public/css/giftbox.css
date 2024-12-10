@@ -153,12 +153,14 @@ body{
     z-index: 1000;
     animation: popIn 0.5s ease forwards;
     overflow: hidden;
+    height: auto;
+    /* change height accordingly nalang, but for now auto */
 }
 
 /* Content inside the letter */
 .letter-content {
     text-align: justify;
-    font-size: 22px;
+    font-size: 18px;
     height: 100%;
 
 }
@@ -182,6 +184,7 @@ body{
     transition: background-color 0.3s ease;
     align-self: center;
     justify-self: center;
+    animation: 0.5s ease out;
 }
 
 /* Pop-in animation */
@@ -194,4 +197,17 @@ body{
         transform: translate(-50%, -50%) scale(1);
         opacity: 1;
     }
+}
+
+/* .next-button {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    padding: 0;
+    background: none;
+} */
+
+.next-button .next-image {
+    width: 100px;
+    height: 100px;
 }

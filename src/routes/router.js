@@ -14,26 +14,31 @@ app.use(express.static('public'));
 
 
 router.get('/login', (req,res) => {
-    res.render('login', {layout: 'login'});
+    const error = req.query.error || null;
+    res.render('login', { layout: 'login', error });
 });
 
 router.post("/check-gift", (req,res) =>{
-    console.log(req.body);
+    
     const { name } = req.body;
     const gift = giftsData.find(g => g.name == name);
 
     if(gift){
         req.session.name = name;
-        res.redirect('/gift-box');
+        res.redirect(`/gift-box/${encodeURIComponent(name)}`);
     }
     else{
         res.redirect('/login');
     }
 })
 
-router.get("/gift-box", (req,res) =>{
+router.get("/gift-box/:name", (req,res) =>{
+    const { name } = req.params;
     try{
-    res.render("giftbox");
+    if (req.session.name !== name) {
+        return res.redirect(`/login?error=Access%20denied`);
+    }
+    res.render("giftbox", {name});
     }
     catch (error) {
         console.error("Error displaying", error);
@@ -44,19 +49,17 @@ router.get("/gift-box", (req,res) =>{
 router.get('/api/letter', async (req, res) => {
     const name= req.session.name;
     const person = await Gifts.findOne({
-        name
+        name    
     });
 
-    if(name){
-        res.json({
-            name,
-            message: person.message
-        });
+    if(!name || !person || person.name !== name){
+        return res.status(403).json({error: "Access denied"});
     }
-    else{
-        res.status(400).json({error: "Name not found in session"});
-    }
-    
+    res.json({
+        name,
+        message: person.message,
+        greeting: person.greeting
+    });
 });
 
 module.exports = router;

@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #071e22;
+    font-family: 'Pixelify Sans', sans-serif;
+    color: #fff;
+}
+
+.login-container {
+    text-align: center;
+    background-color: #fff8dc;
+    border: 2px solid #d2b48c;
+    border-radius: 15px;
+    padding: 30px 40px;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.5);
+    width: 500px;
+}
+
+.login-container h1 {
+    font-size: 24px;
+    color: #071e22;
+    margin-bottom: 20px;
+}
+
+.login-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #d2b48c;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+.login-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: 'Pixelify Sans', sans-serif;
+    background-color: #f2545b;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-container button:hover {
+    background-color: #d43d48;
+}

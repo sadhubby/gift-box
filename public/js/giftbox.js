@@ -123,10 +123,12 @@ const fetchLetterContent = async () => {
                         <p>${data.greeting}<br>Evan</p>
                         <p>P.S., go to the next page for your gift.</p>
                     </div>
-                    <button class="close-button">Close</button>
-                    <button class="next-button">
-                        <img src="/path-to-your-next-image.png" alt="Next" class="next-image">
-                    </button>
+                    <div class="button-container">
+                        <button class="close-button">Close</button>
+                        <button class="next-button">
+                            <img src='/imgs/pointer.png' class="next-image">
+                        </button>
+                    </div>
                 </div>
                 <!-- Section 2: Gift -->
                 <div class="letter-section gift-section" style="display: none;">

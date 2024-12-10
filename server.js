@@ -3,6 +3,7 @@ const server = express();
 const bodyParser = require('body-parser');
 const handlebars = require('express-handlebars');
 const path = require('path');
+const session = require('express-session');
 
 const connectDB = require('./src/scripts/connectDB');
 const populateDB = require('./src/scripts/populateDB.js');
@@ -10,9 +11,16 @@ const populateDB = require('./src/scripts/populateDB.js');
 require('dotenv').config();
 
 const router = require("./src/routes/router.js");
-server.use(router);
+
+server.use(express.urlencoded({extended: true}));
 
 server.use(express.static(path.join(__dirname, 'public')));
+
+
+server.use(bodyParser.urlencoded({ extended: true }));
+server.use(express.json());
+server.use(express.urlencoded({ extended: true }));
+
 server.set('view engine', 'hbs');
 server.use(bodyParser.urlencoded({extended: true}));
 
@@ -23,6 +31,16 @@ server.engine('hbs', handlebars.engine({
         allowProtoMethodsByDefault: true
     }
 }));
+
+server.use(session({
+    secret: 'SESSION_SECRET',
+    resave: false,
+    saveUninitialized: false,
+    cookie: {secure : false, maxAge: 1209600000}
+}))
+
+server.use(router);
+
 
 async function connectToDB(){
     try{

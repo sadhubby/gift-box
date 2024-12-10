@@ -210,7 +210,7 @@ body{
     display: flex; 
     align-items: center;
     justify-content: center;
-    /* transition: transform 0.2s ease; */
+    
 }
 
 .next-button .next-image {
@@ -221,8 +221,16 @@ body{
     padding: 0;
     margin: 0;
     background: none;
+    transition: transform 0.2s ease;
 }
 
+.next-button:hover .next-image {
+    transform: scale(1.2);
+}
+.next-button:hover, .next-image:hover {
+    background-color: none;
+    color: inherit; 
+}
 
 .button-container {
     display: flex; 

@@ -149,11 +149,13 @@ body{
     font-family: "Pixelify Sans", sans-serif;
     font-size: 16px;
     border-radius: 10px;
+    /*  */
     display: none;
+    /*  */
     z-index: 1000;
     animation: popIn 0.5s ease forwards;
     overflow: hidden;
-    height: auto;
+    height: 400px;
     /* change height accordingly nalang, but for now auto */
     justify-content: space-between;
 }
@@ -166,8 +168,8 @@ body{
 
 }
 .letter-body {
-    max-height: 200px; 
-    overflow-y: auto; 
+    max-height: 350px; 
+    overflow-y: auto;
     padding-right: 10px;
 }
 /* Close button */
@@ -236,5 +238,12 @@ body{
     display: flex; 
     justify-content: space-between; 
     align-items: center; 
-    margin-top: 20px; 
+    margin-top: 10px;
+}
+
+a:link{
+    color:#f2545b;
+}
+a:visited{
+    color:#f2545b;
 }

@@ -121,7 +121,7 @@ const fetchLetterContent = async () => {
                         <p>Dear ${data.name},</p>
                         <p>${data.message}</p>
                         <p>${data.greeting}<br>Evan</p>
-                        <p>P.S., go to the next page for your gift.</p>
+                        <p>P.S., go to the next page to check IF you have a gift.</p>
                     </div>
                     <div class="button-container">
                         <button class="close-button">Close</button>
@@ -133,16 +133,15 @@ const fetchLetterContent = async () => {
                 <!-- Section 2: Gift -->
                 <div class="letter-section gift-section" style="display: none;">
                     <div class="letter-body">
-                        <p>Your gift: ${data.gift}</p>
+                        <p>Your gift<hr>${data.gift}</p>
                     </div>
                     <button class="close-button">Close</button>
                 </div>
             </div>
         `;
 
-        // Add functionality to buttons
         const nextButton = letter.querySelector('.next-button');
-        const closeButtons = letter.querySelectorAll('.close-button'); // Both sections have close buttons
+        const closeButtons = letter.querySelectorAll('.close-button'); 
         const messageSection = letter.querySelector('.message-section');
         const giftSection = letter.querySelector('.gift-section');
 
@@ -192,13 +191,13 @@ click.addEventListener('click', () => {
             overlay.style.display = 'block';
             letter.style.display = 'block';
             fetchLetterContent();
-        }, 700); // Adjust delay to sync with the gift box animation
+        }, 700); 
     }
 });
 
-// Close overlay when clicking outside the letter
+
 overlay.addEventListener('click', (e) => {
-    if (e.target === overlay) { // Only close if clicking on the overlay, not the letter itself
+    if (e.target === overlay) { 
         overlay.style.display = 'none';
         letter.style.display = 'none';
     }

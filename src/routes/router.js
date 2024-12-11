@@ -28,7 +28,11 @@ router.post("/check-gift", (req,res) =>{
         res.redirect(`/gift-box/${encodeURIComponent(name)}`);
     }
     else{
-        res.redirect('/login');
+        res.status(404).render('login', {
+            layout: 'login',
+            error: "Sorry but you do not have a gift from Evan this year."
+        });
+        
     }
 })
 
@@ -58,7 +62,8 @@ router.get('/api/letter', async (req, res) => {
     res.json({
         name,
         message: person.message,
-        greeting: person.greeting
+        greeting: person.greeting,
+        gift: person.gift
     });
 });
 

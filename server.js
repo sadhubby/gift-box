@@ -38,10 +38,10 @@ server.engine('hbs', handlebars.engine({
 
 //session
 server.use(session({
-    secret: 'SESSION_SECRET',
-    resave: false,
+    secret: process.env.SESSION_SECRET,
+    resave: true,
     saveUninitialized: false,
-    cookie: {secure : false, maxAge: 1209600000}
+    cookie: {secure: process.env.NODE_ENV === 'production', httpOnly: true, maxAge: 1209600000}
 }))
 
 //server will use the router js

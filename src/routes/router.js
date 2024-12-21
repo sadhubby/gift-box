@@ -24,8 +24,11 @@ router.post("/check-gift", (req,res) =>{
     const gift = giftsData.find(g => g.name == name);
 
     if(gift){
-        req.session.name = name;
-        res.redirect(`/gift-box/${encodeURIComponent(name)}`);
+        req.session.regenerate((err) => {
+            if (err) return res.status(500).send('Session error');
+            req.session.name = name;
+            res.redirect(`/gift-box/${encodeURIComponent(name)}`);
+        });
     }
     else{
         res.status(404).render('login', {
@@ -63,7 +66,8 @@ router.get('/api/letter', async (req, res) => {
         name,
         message: person.message,
         greeting: person.greeting,
-        gift: person.gift
+        gift: person.gift,
+        hasGift: person.gift !== "No Gift"
     });
 });
 

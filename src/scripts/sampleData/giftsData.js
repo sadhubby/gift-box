@@ -48,7 +48,13 @@ const giftsData = [
         name: "Pablo",
         message: "bruh",
         greeting: "bruh",
-        gift: "bruh"
+        gift: "No Gift"
+    },
+    {
+        name: "Kabruh",
+        message: "bruh",
+        greeting: "bruh",
+        gift: "No Gift"
     }
 ]
 

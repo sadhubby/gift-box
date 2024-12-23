@@ -12,7 +12,7 @@ const giftsData = [
         "I am not all that smart, I simply try to work as hard as I can. You have been very patient with me in so many things and I cannot thank you enough for that. And since Grade 8, I can confidently say you have improved so much in teaching a dumbass like me. <br><br>"+
         "And like I mean, I have to give you the greatest amount and quality of flowers for being a great DM. I know I have not been the best player especially in attendance, but since Aatrox, I want you to know that you have changed a life. You changed my life and I am so fucking happy about it. DND changed my life and it was what I had as an escape back in 2022, now a hobby I know and love and I just know it would not have been possible without you.<br><br>"+
         "I wish us a great year ahead. There are many trials and tribulations but I know for a goddamn fact we are making it through no matter what. You got me by your side after all.",
-        greeting: "With all fuckery,",
+        greeting: "The gayest straight man and straightest gay man",
         gift: "bruh"
     },
     {
@@ -119,13 +119,49 @@ const giftsData = [
         gift: "No Gift"
     },
     {
-        name: "Hannah",
-        message: "Ok so I think its best to preface this first with I AM NOT AFFLIATED WITH ANY STUDENT GOVERNMENT IN ANY WAY, SHAPE OR FORM. I AM A STUDENT WITHIN THE STUDENT BODY AND WILL NOT ARRANGE A COUP MAYBE. <br><br>"+
-        "Now with that out of the way, my actual letter. Firstly I would like to say thank you for this year. Thank you for being a great leader in GDSC. That was my first time being an officer in an organization and I felt seen and heard. You took care of me and so many others with your time as lead. I cherish that forever as I have got to see another side of me, the work horse. I also would like to say sorry as I believe I have lost the single piso wrapped with a ribbon HAHAHAHAHAHA PLEASE DONT KILL ME!!!!! "+
-        "<br> Anyway, I also would like to thank you for your service as part of the student government. As I have said before and I don't think you've heard enough of it but I have disdain for student government usually. I only ever feel like I am in good hands if its people I can actually trust to lead. While yes I could decide to be part of those who lead but I know I don't have the guts or the credentials for it. You however, are an exception to the case. "+
-        "I have believed in you in GDSC, and I will follow right behind you in your part as student government. My whole heart and soul, I trust you and your agenda for the students. <br><br> I do not really know where we stand but I hope you can confidently call me friend and I can do for you. I am very choosy and picky with my friends and I have a high standard. That being I want my friends to be people I can grow old with. You are someone whom I trust completely. And someone whom I can proclaim to be my friend. "+
-        "I will try to be more active especially in wanting to be closer. I do believe I have that responsibility to my friends. <br><br> Maybe you hear this a lot from your family or your closest support system but I would like to be able to say it too. I'm proud of you and what you are doing. You're doing good and a whole lot more of good for everyone of us. You're changing this world bit by bit and I am glad to be one of the people you had influenced to change too. Thank you so much for your presence in my life. <br><br> To a great year ahead.",
-        greeting: "THE GREATEST LOGI OF ALL TIME!",
+        name: "Nio",
+        message: "WAZZZUP  NIO! This is a simple letter that I want to give out to a few select people and you're one of those people. Firstly, I'd like to say thank you for your acceptance of me into LSCS. Imma be honest, di ko naging first choice si DocuLogi in a sense na talagang last minute ko lang pinagisipan na baka gustuhin ko mag DocuLogi. Like the first one was whereever the camera man is. But then last minute I decided to change it. I knew then I won't regret it and here I am absolutely loving it. "+
+        "Truthfully di ko talaga alam how exactly I would fit in into LSCS. I mean, thats usually how it goes naman talaga when entering a new environment but I did not expect the way you did it. I felt accepted and seen as part of, as you say, the backbone of LSCS. I was not entirely sure of my credentials but I was sure of my abilities and you trusted that. I would like to believe to this day, you trust in those abilities of mine. So thank you so much for accepting me into this new environment with open arms. "+
+        "Thank you also for your patience. I am quite detail oriented and like sometimes I am susceptible to asking dumb questions or questions that are answered if I just try to re-read things. Yet you were patient with me as I try to navigate through every single little thing and loophole in doculogi. <br><br> I don't know how often you get to hear it from anyone else but I would like to say that I am proud of you. I am proud that you are my leader and I will follow to the ends of the Earth. You are doing good in your work. I trust you wholeheartedly and I can never thank you enough for your presence as a leader. You trust the team every step of the way and we can never repay enough how good you have been to us. "+
+        "<br><br> To a great year ahead",
+        greeting: "THE FULL INCENTIVE GOD",
+        gift: "No Gift"
+    },
+    {
+        name: "Kimi",
+        message: "Ok so a lot to say here but firstly I would like to thank you. I am grateful for your friendship and I can never trade away the fact that I got to know you. I don't really do friends that much in a sense na very choosy talaga ako. I believe I explained this to you na but I really am thankful that I am someone you trust and you can call friend. Its really amazing how we got to hit it off very quickly in the term and like as much as the tribulations are, it was great that I got to meet you. "+
+        "I respect you a lot and its great that there is one added person into the list of people I know I want to grow old with, outside of college, outside of professional life. I feel like I got to know a lot about you especially through Renzel and I wish I get to know more this coming year. <br><br> To a great year ahead.",
+        greeting: "Literally the chillest guy of them all.",
+        gift: "No Gift"
+    },
+    {
+        name: "Mikyla Taryn Kua Keng",
+        message: "Ok Miks, I would like to start that I am eternally grateful that you are a friend of mine. Its crazy that after all these years I can still call you friend you the same to me. Honestly, I have been quite scared where our friendship will be considering that we are in different universities but I am ever so glad that we still are friends to this day. "+
+        "<br><br>I am still so thankful that you were the first friend I ever made in DLSU. Thank you for your presence. I also would like to thank you for your trust in me. I thank you that to this day you trust me with your turmoils. With your delusions and problems. I cannot repay that trust enough. I also love the fact that we get to have time together thru Gamer Time. Its honestly lovely that you get to meet these friends of mine and we get to call you one of our own. "+
+        "We don't really get to have a real proper chance of hanging out and thats honestly on me with how busy I make myself to be forgetting that there is a life to live. I have surrounded myself with people that can remind me of that, you included. <br><br> Yknow I don't think I ever got to tell you my standard for friendship. Truthfully I am very choosy and picky with my friends. And people say I have a high standard even if its just one sentence. Its that I want to be friends who I can see myself growing old with. I see that in you. I want to be able to grow old with you even outside of school and whatnot. <br><br>"+
+        "I do not know how often you get to hear it but I want to be able to say it. I am proud of you. Shit has been rough and I will not pretend to understand how rought it must be for you but I still am so proud of you. We got this far and we can go further. No matter what, know that you have a friend with you in your journey. <br><br>To a better year ahead for all of us (P.S. I still have to go to Ying Ying Tea House)",
+        greeting: "The best Cassidy player you would ever know",
+        gift: "No Gift"
+    },
+    {
+        name: "Jason",
+        message: "Ok Jason so I would like to firstly say thank you to you. I know we don't really get to see eye to eye at times in certain topics but its great to have someone that is a completely different person from you. This year has been fun with you around and thank you so much for allowing me to be part of your life in some capacity. I don't really get to have those late night talks with you but those few times that I did, I hope you know I really do take the words you say with full consideration. Like I know its not just random shit but actual things to live by. "+
+        "So I really thank you that you're someone whom I can call friend and is a grounding presence. Thank you for making this year fun with all random tomfoolery with overwatch and cs. I wish to spend more time with CSB people this coming year, but as always, if time would allow it. <br><br>At times, this year has been real rough yet we're still pulling through. To a better year ahead.",
+        greeting: "The comsci student trying to take your job",
+        gift: "No Gift"
+    },
+    {
+        name: "Luigi",
+        message: "OMG IS THIS *THE* CHIPS DELA YT!!!!!<br><br>I think this is a good time to say that I truly do enjoy the streams. Maybe its cuz I know the streamer in real life but I really like tuning into your streams. The content is something I really like to pull up when I'm coding at God knows what time in the evening into morning. ALSO PICK SOMEONE NOT MERCY!!!!<br><br> "+
+        "Anyway, I would also like to say that I have great respect for you. You're good at what you do and you have the hard work to back it up. I don't know if you'll try to disagree with that sentiment but from what I observe, you are putting in the work and effort into everything whilst being a college student. That is something truly admirable and respectable. I wish you great luck in your endeavors lalo na sa cosmatsu, the nearest one. <br><br>"+
+        "I hope I get to hang out more with the CSB people this coming year. To a better year ahead.",
+        greeting: "Literally the best Cassidy player ever to grace your games",
+        gift: "No Gift"
+    },
+    {
+        name: "Ivan",
+        message: "",
+        greeting: "Literally the best Cassidy player ever to grace your games",
         gift: "No Gift"
     }
 ]

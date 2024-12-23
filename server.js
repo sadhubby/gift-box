@@ -41,7 +41,7 @@ server.use(session({
     secret: process.env.SESSION_SECRET,
     resave: true,
     saveUninitialized: false,
-    cookie: {secure: process.env.NODE_ENV === 'production', httpOnly: true, maxAge: 1209600000}
+    cookie: {httpOnly: true, maxAge: 1209600000}
 }))
 
 //server will use the router js

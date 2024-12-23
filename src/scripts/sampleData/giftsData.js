@@ -160,7 +160,7 @@ const giftsData = [
     },
     {
         name: "Ivan",
-        message: "",
+        message: "test",
         greeting: "Literally the best Cassidy player ever to grace your games",
         gift: "No Gift"
     }

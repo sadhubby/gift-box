@@ -33,7 +33,7 @@ const fetchLetterContent = async () => {
                     <div class="letter-body">
                         <p>Dear ${data.name},</p>
                         <p>${data.message}</p>
-                        <p>${data.greeting}<br>Evan</p>
+                        <p>${data.greeting}<br><br>Evan</p>
                     </div>
                     <div class="button-container">
                         <button class="close-button">Close</button>

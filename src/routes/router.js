@@ -20,31 +20,61 @@ router.get('/login', (req,res) => {
 
 router.post("/check-gift", (req,res) =>{
     
-    const { name } = req.body;
-    const gift = giftsData.find(g => g.name == name);
+    // const { name } = req.body;
+    // const gift = giftsData.find(g => g.name == name);
 
-    if(gift){
-        req.session.regenerate((err) => {
-            if (err) return res.status(500).send('Session error');
-            req.session.name = name;
-            res.redirect(`/gift-box/${encodeURIComponent(name)}`);
-        });
-    }
-    else{
-        res.status(404).render('login', {
-            layout: 'login',
-            error: "Sorry but you do not have a gift from Evan this year."
-        });
+    // if(gift){
+    //     req.session.regenerate((err) => {
+    //         if (err) return res.status(500).send('Session error');
+    //         req.session.name = name;
+    //         res.redirect(`/gift-box/${encodeURIComponent(name)}`);
+    //     });
+    // }
+    // else{
+    //     res.status(404).render('login', {
+    //         layout: 'login',
+    //         error: "Sorry but you do not have a gift from Evan this year."
+    //     });
         
-    }
+    // }
+    router.post("/check-gift", (req, res) => {
+        const { name, code } = req.body; 
+    
+        const gift = giftsData.find(g => g.name == name && g.code == code);
+    
+        if (gift) {
+            req.session.regenerate((err) => {
+                if (err) {
+                    console.error('Session regeneration error:', err);
+                    return res.status(500).send('Session error');
+                }
+    
+                req.session.name = name; 
+                req.session.code = code; 
+                req.session.save((err) => {
+                    if (err) {
+                        console.error('Session save error:', err);
+                        return res.status(500).send('Internal server error');
+                    }
+    
+                    res.redirect(`/gift-box/${encodeURIComponent(name)}`);
+                });
+            });
+        } else {
+            res.status(404).render('login', {
+                layout: 'login',
+                error: "Invalid name or gift code. Please try again.",
+            });
+        }
+    });
 })
 
 router.get("/gift-box/:name", (req,res) =>{
     const { name } = req.params;
     try{
-    if (req.session.name !== name) {
-        return res.redirect(`/login?error=Access%20denied`);
-    }
+        if (req.session.name !== name || !req.session.code) {
+            return res.redirect(`/login?error=Access%20denied`);
+        }
     res.render("giftbox", {name});
     }
     catch (error) {

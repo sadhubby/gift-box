@@ -56,8 +56,8 @@ server.use((req, res, next) =>{
 })
 
 server.use((req, res, next) => {
-    const isAuthenticated = !!req.session.isAuthenticated; // Check session authentication
-    res.locals.isAuthenticated = isAuthenticated;         // Pass to views
+    const isAuthenticated = !!req.session.isAuthenticated; 
+    res.locals.isAuthenticated = isAuthenticated;         
     next();
 });
 

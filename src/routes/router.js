@@ -18,57 +18,36 @@ router.get('/login', (req,res) => {
     res.render('login', { layout: 'login', error });
 });
 
-router.post("/check-gift", (req,res) =>{
+router.post("/check-gift", (req, res) => {
+    const { name, code } = req.body; 
+    console.log("Received name:", name, "and code:", code);
+    const gift = giftsData.find(g => g.name == name && g.code == code);
     
-    // const { name } = req.body;
-    // const gift = giftsData.find(g => g.name == name);
+    if (gift) {
+        req.session.regenerate((err) => {
+            if (err) {
+                console.error('Session regeneration error:', err);
+                return res.status(500).send('Session error');
+            }
 
-    // if(gift){
-    //     req.session.regenerate((err) => {
-    //         if (err) return res.status(500).send('Session error');
-    //         req.session.name = name;
-    //         res.redirect(`/gift-box/${encodeURIComponent(name)}`);
-    //     });
-    // }
-    // else{
-    //     res.status(404).render('login', {
-    //         layout: 'login',
-    //         error: "Sorry but you do not have a gift from Evan this year."
-    //     });
-        
-    // }
-    router.post("/check-gift", (req, res) => {
-        const { name, code } = req.body; 
-    
-        const gift = giftsData.find(g => g.name == name && g.code == code);
-    
-        if (gift) {
-            req.session.regenerate((err) => {
+            req.session.name = name; 
+            req.session.code = code; 
+            req.session.save((err) => {
                 if (err) {
-                    console.error('Session regeneration error:', err);
-                    return res.status(500).send('Session error');
+                    console.error('Session save error:', err);
+                    return res.status(500).send('Internal server error');
                 }
-    
-                req.session.name = name; 
-                req.session.code = code; 
-                req.session.save((err) => {
-                    if (err) {
-                        console.error('Session save error:', err);
-                        return res.status(500).send('Internal server error');
-                    }
-    
-                    res.redirect(`/gift-box/${encodeURIComponent(name)}`);
-                });
-            });
-        } else {
-            res.status(404).render('login', {
-                layout: 'login',
-                error: "Invalid name or gift code. Please try again.",
-            });
-        }
-    });
-})
 
+                res.redirect(`/gift-box/${encodeURIComponent(name)}`);
+            });
+        });
+    } else {
+        res.status(404).render('login', {
+            layout: 'login',
+            error: "Invalid name or gift code. Please try again.",
+        });
+    }
+});
 router.get("/gift-box/:name", (req,res) =>{
     const { name } = req.params;
     try{

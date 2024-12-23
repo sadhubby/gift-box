@@ -179,6 +179,7 @@ const giftsData = [
     },
     {
         name: "Ivan",
+        code: "Best lawyer",
         message: "test",
         greeting: "Literally the best Cassidy player ever to grace your games, ",
         gift: "No Gift"

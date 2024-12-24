@@ -235,6 +235,14 @@ const giftsData = [
         greeting: "Praying for your happiness, ",
         gift: "No Gift"
     },
+    {
+        name: "Jeah",
+        code: "3rd person I know from UST",
+        message: "Hello Ate Jeah. This will just be a quick appreciation letter but I just wanna say thank you talaga. Firstly thank you sa gift. Somehow kasya sa akin, I'm very surprised actually. Usually the regular fit doesn't.. well, fit but it did and I've been wanting a green top for a while na. Thank you so much for that along with the crystal gem lamp. Its very aesthetic and I myself want to put it to good use.<br><br>"+
+        "Pero more importantly, thank you for being with kuya. I don't really want to dive deeper into personal lives of other people unless they open up to me but I know for a fact kuya is happy. Thank you so much for sticking with him. Thank you for your support. I can only do so much as his brother and it really does warm my heart that he's happy. Please contintue supporting him. Also, wag mo sabihin kay kuya ito, baka asarin ako HAHAHAHA. <br><br>To a good year ahead.",
+        greeting: "With brotherly love, ",
+        gift: "No Gift"
+    },
 ]
 
 module.exports = giftsData;

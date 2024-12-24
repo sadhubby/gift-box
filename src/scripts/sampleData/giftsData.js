@@ -179,11 +179,62 @@ const giftsData = [
     },
     {
         name: "Ivan",
-        code: "Best lawyer",
-        message: "test",
-        greeting: "Literally the best Cassidy player ever to grace your games, ",
+        code: "Luka Doncic ng Pinas",
+        message: "THank you so much for many things but mostly of taking care of the very first friend I made in DLSU. They're an important person to me and I could not be happier with where all of us are at. Thank you also for being real with me as a companion. I know that when I need a real talking to from a friend, I can rely on you to not mince your words and be real with me. Thank you so much for your presence in my life and encouraging me to be better. <br><br>To a great year ahead.",
+        greeting: "Third-best Reinhardt player, ",
         gift: "No Gift"
-    }
+    },
+    {
+        name: "Ryumi",
+        code: "Seraphine Main",
+        message: "Boss, thank you sa year na ito. Firstly I'd like to thank you for allowing me into your life. Though I present myself as a father figure, truth is I don't have it all figured out. Yet you allow me to be there and be of guidance when you need it. I would also like to thank you for your help to me. Lalo na sa CCINFOM. That was one of the roughest terms ever and I'm glad we got through it together. With that I would also like to apologize again for what happened sa INFOM exam."+
+        "I'm still sorry about that, lalo na I didn't understand the situation you were in beforehand and I downplayed your efforts. <br>I would like for you to know that I respect you to a great degree because of your efforts. You align with the people whom I want to be around with. "+
+        "I'd also like to say na I kind of broken my friendship with Ian. Its just being civil now but I think its best I mention that to you na rin for my follow-up. I have a standard to my friendships na. Like its just one sentence but I keep it as a standard. I want to be friends only with those people I see myself growing old with. And if di pa halata sa letter na ito, I want to be able to grow outside of college, into professional life, kahit retirement home pa with you. You're a good and respectable person and I want to be able to keep a life with you along with the many others. "+
+        "<br><br>This year has been hard for you and I cannot pretend to understand the full magnitude of it. I can only hear snippets of how fucked things must have been for you. But I want you to know that I am proud of you. You're still here and still fighting. And that is a testament to your strength and heart. <br><br>To a better year ahead.",
+        greeting: "Father, ",
+        gift: "No Gift"
+    },
+    {
+        name: "Marga",
+        code: "Handicrafts",
+        message: "Marga, this is just a quick appreciation letter for you. Now its honestly amazing having someone to share things with especially things you can't easily share with others. I like whatever reels we have and its honestly great that we can share these hobbies and personal projects outside of school. <br><br>Unfortunate that we don't really get to hang out as often and that we don't get to have as much time but I will try my best this coming year to be more available. I don't know what its like in engineering but I just want to say that you're doing good and I'm proud of you. "+
+        "We're in our third year and we're still here standing and fighting. You're doing good. <br><br> To a better year ahead",
+        greeting: "Papercraft connoisseur, ",
+        gift: "No Gift"
+    },
+    {
+        name: "Lean",
+        code: "Best Riven PH",
+        message: "I'd like to start this by saying I am glad. I was glad that we got to reconnect somehow even though we are in different universities. I am glad that there is still a connection between you and I. You're a good man and I hope you get to have a good life. I don't know what you're up to now or what you're up to with your girlfriend but I pray for the best for both of you. <br><br> To a good year ahead.",
+        greeting: "Best Gangplank PH, ",
+        gift: "No Gift"
+    },
+    {
+        name: "Lana",
+        code: "Only CLA person I know",
+        message: "I'd like to start this appreciation letter by saying thank you for your presence. The times I got to hang out with you, it was fun. I discovered a random food place that actually had good food. Thank you also for watching that one movie about that girl who forgets and like the guy has been taking care of her and shit. THAT SHIT MADE ME CRY!<br>Thank you for your time this year. I know I was not able to make the time myself but I would try harder this coming year. Shit has been rough with college but we're still here standing and fighting. That is something to be proud of and I am proud of you.<br><br>To a better year ahead.",
+        greeting: "John CCS himself, ",
+        gift: "No Gift"
+    },
+    {
+        name: "Andrei",
+        code: "Chinita Hunter",
+        message: "WAZZZZUPPPP!!!!!!!!!!! So Andrei this is just a quick appreciation letter. I am thankful to the God that I believe in that we got to meet again in a more personal way. I am glad that you are part of our friendgroup and that you are part of this support system that we have. Its super surreal how small the world is that we got to be in so many same classes along with the others. Its amazing that we got back into contact and now we're fighting CCS side by side. <br>Maybe its fate or maybe its the Devon effect but here we are ending the year together. Thank you so much for your presence and trust in us. I will make sure that trust is never misplaced.<br><br>"+
+        "To a better year ahead.",
+        greeting: "Your fellow chinita menace, ",
+        gift: "No Gift"
+    },
+    {
+        name: "Tanate",
+        code: "Umi",
+        message: "Out of all the letters I had to make, this is without a doubt the hardest one. Not because of to whom I am writing this too but all the things that I have to say. I guess its best to start with a thank you. I have never gotten to thank you for your time. It may have, in most eyes and mine, ended in shit. That still doesn't take away the fact that you have put in time. Thank you. "+
+        "<br><br>I changed my life in many ways. After everything, I got a stern talking to by some people closest to me and I turned to a life of Stoicism. I have been practicing it for over a year now and now people think I'm some wise old sage. I have become philsophical in manner and I turned to my philosophy before I thought of writing this letter. I think it is within good wisdom to finally close everything up with what I can say. I did not have that chance and more than that, I do not have the capacity to talk to you but I do have the capacity to tell you. <br>"+
+        "After changing my life and aligning with a philosophy, I can get to say that now I am happy. I truly am. I got to meet so many other talented people. I got to become friends with people that I know can help me reach greater heights. I have become a workhorse in organizations and they trust me a lot. And these people whom I can call friend stuck by me at my worst and trusted me every up and down along the way. With that being said, I got to get a standard. In fact, my own kuya had this standard. Both he and I are selective of our friends and truthfully I never got to understand that till late last year and earlier this year. "+
+        "<br>I only become friends with people whom I can see myself growing old with. Truthfully Tanate, with the wisdom I have now, I do not see that with you. I do not see myself wanting to grow old with you. I do not see myself improving and becoming better in any aspect of life with you around. As possibly hurtful it is to say, I cannot have you in my life as I see that I am being weighed down.<br>"+
+        "<br>I guess it is best to thank you still for breaking everything off. Maybe it was a blessing that I did not come to understand till later. Suffice to say however, I am happier now. I am better now. I got to love truly once again. Not with rose-tinted glasses but with my fibre of being. <br><br>As shitty as everything was, I had my own problems and toxicity too. I will not disagree with that sentiment. But I am better now and all I can do is wish you happiness all the same.",
+        greeting: "Praying for your happiness, ",
+        gift: "No Gift"
+    },
 ]
 
 module.exports = giftsData;

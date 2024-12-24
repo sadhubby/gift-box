@@ -15,7 +15,7 @@ const giftsData = [
         "And like I mean, I have to give you the greatest amount and quality of flowers for being a great DM. I know I have not been the best player especially in attendance, but since Aatrox, I want you to know that you have changed a life. You changed my life and I am so fucking happy about it. DND changed my life and it was what I had as an escape back in 2022, now a hobby I know and love and I just know it would not have been possible without you.<br><br>"+
         "I wish us a great year ahead. There are many trials and tribulations but I know for a goddamn fact we are making it through no matter what. You got me by your side after all.",
         greeting: "The gayest straight man and straightest gay man, ",
-        gift: "bruh"
+        gift: "I actually have a gift for you but as of right now, I can only show images of it. There is 2 actually. I tried 3D modelling dice and making an app but holy fucking shit was it hard. I still have the models but I cannot really put it in like another webapp or something. NOW thing is I have to cut some losses. I still have the model specifically set for you but I also have a pixel art that which I am ready to give.<br><br><a href = https://drive.google.com/drive/folders/1ORuN78ltcOLdmYJpsI4eD9rl8ymglnsm?usp=sharing>D20 For the DM</a>"
     },
     {
         name: "Charlize",
@@ -24,10 +24,10 @@ const giftsData = [
         "I do not think I ever got to explain this to you but I explained this a lot of times with some others. Actually this kind of started frosh year but only was solidified the term we took GEUSELF together (because of CCINFOM). My own eldest kuya himself is very picky and I have come to follow suite. And the way I choose my friends is usually 1. Can they help me improve myself, 2. Can I help improve them, and 3. Do I want to grow older with them. "+
         "<br><br>Why am I saying this? Because I just want to say how grateful I am that you are part of those people I can call friend. Actually, you were technically the first since entering college life. Yeah there were some nung DLSU SHS, pero that's SHS. "+
         "You were the first person, outside of my closest friend group whom I truly harbored great respect for and whom I knew for myself I want to be friends with. Lo and behold we still are. I know for a fact that I have improved as a person with you around. I hope to every god above and the God I believe in that I have been of help to you too. I truly do wish that I can do more this coming year in being a better to you. <br><br> Thank you so much for a wonderful year Charlize. "+
-        "Thank you for being unapologetically who you are. I am truly in awe in how good of a person you are. Thank you for allowing me to be part of your life. <br><br> Along with the others, those whom I have come to know through you, I wish a great year ahead and a life outside of college all together.",
+        "Thank you for being unapologetically who you are. Thank you for allowing me to be part of your life. Maybe you have heard the same compliment from so many people but I would like to be able to say it to you still. I am proud of you. You're doing great and its a testament of strength that you're still here fighting no matter how hard shit comes.<br><br> Along with the others, those whom I have come to know through you, I wish you a great year ahead.",
         greeting: "順頌時祺, ",
         gift: "I actually got two gifts for you, three if I can actually do it. \n First is a spotify playlist. You can access the playlist with this link: <br><br> </b><a href=https://bit.ly/field-of-flowers>Field of Flowers</a></b> <br><br> The spotify playlist is a collection of 25 songs that which I fully recommend to you. I think given what I currently know of your music taste, you might come to like this. Some mentioned here are Jimmy Brown, a Korean RNB singer. 塞壬唱片-MSR, the fictional music company in Arknights and many more. <br><br> Your second gift is a 'coupon'. You can access the details with this link <br><br> <a href=https://bit.ly/evan-giftbox-coupon>Coupon</a>.<br><br>To avail this coupon, download the image and store it. Once you want to expend said coupon, you must send it in PM. <br><br>" +
-        "Actually the third gift, the reason why I say 'If I can actually do it' is because of the magnitude of that thing that which will also be received by others. Hint: DND players"
+        "Actually the third gift, the reason why I say 'If I can actually do it' is because of the magnitude of that thing that which will also be received by others. I have been able to make it at time of writing and its pixel art of a D20 die specifically designed for you. <br><br><a href = https://drive.google.com/drive/folders/1zWoI-K1f2ZWG_VCnA3u466D_6cZFwGzu?usp=sharing>Skylar</a> <br><br>Actually I started with Blender and making models there that can be 3d printed. The problem however was the fact that it wont export properly with the textures (colors and what not). So I decided to go to a different medium to try to make this. If you still want to see how the model turned out, I can give yout the pictures from Blender."
     },
     {
         name: "Devon",
@@ -37,7 +37,7 @@ const giftsData = [
         "Thank you for allowing me into your life. I truly do believe I have improved as a person with you. I think this was really one of those moments where we as a group just happen to click super super well. I guess there really was a path set out for all of us DB Boys to meet you and I know for a fact we all think the same that we enjoy your company. <br><br>"+
         "I wish us a great year ahead. There are more trials and tribulations to come and I am all up for it. Us as a group can and will survive anything and everything.",
         greeting: "With all gayness and straightness, ",
-        gift: "bruh"
+        gift: "I actually have a gift for you but as of right now, I can only show images of it. There is 2 actually. I tried 3D modelling dice and making an app but holy fucking shit was it hard. I still have the models but I cannot really put it in like another webapp or something. All I can show for now are screenshots of the model. <br><br><a href = https://drive.google.com/drive/folders/1DVQjdezHTL2TCNtHAT-E2whYBM2OsrDQ?usp=sharing>Devon Dice</a> <br><br> Actually I am doing pixel art of dice right now and I will try to finish the design I want for you and give it to you before the new year comes."
     },
     {
         name: "Miguel",
@@ -47,7 +47,7 @@ const giftsData = [
         "I know that if I just need that reality check, if I need that grounding presence, you are someone I can rely on. Thank you so much for allowing me to be a part of your life ever since JHS. I would not trade it for anything. "+
         "<br><br> To a wonderful year ahead. This coming year will be full of fucked up trials, that is for sure. But no matter what path we take this coming year in our college life, and even outside of college, all roads will lead back to us. ",
         greeting: "Wings of Immortal Flame, lifted from mortal temptation, ",
-        gift: "bruh"
+        gift: "I actually have a gift for you but as of right now, I can only show images of it. There is 2 actually. I tried 3D modelling dice and making an app but holy fucking shit was it hard. I still have the models but I cannot really put it in like another webapp or something. Actually I still have the models and I do think its finished but I cannot exactly export it properly. As such I resorted to pixel art and I do have one for you. <br><br> <a href = https://drive.google.com/drive/folders/1rCKAuLvbqCyIhX-X3n8TS8XlFJCglNvN?usp=sharing>Kayle</a> <br><br>Its not much but I will try to animate it rolling sometime soon. I can still give you a glimpse of the models in Blender should you want it."
     },
     {
         name: "Pablo",
@@ -66,7 +66,7 @@ const giftsData = [
         "But besides that, I am grateful for also your seriousness. I think that you are someone that can be easily confided in and can give actual good and practical advice should it be needed. So in all honesty thank you so much for allowing me to be in your life one way or another and trusting me to be in there. <br><br>"+
         "I hope the year will be kinder to us and allow us to have a way to hang out more often.",
         greeting: "WE'RE ROLLLLLLLIIIIIIIIIINGGGGGGGGGGGGGGG, ",
-        gift: "No Gift"
+        gift: "I actually have a gift for you but as of right now, I can only show images of it. There is 2 actually. I tried 3D modelling dice and making an app but holy fucking shit was it hard. I still have the models but I cannot really put it in like another webapp or something. Here's the model and what it looks like in blender <br><br> <a href = https://drive.google.com/drive/folders/1NOwkDBgnKyHHrc2_aPj6H331D5J1TDkz?usp=sharing>ZAMNNNNNNN</a> <br><br>Actually I am right now doing pixel art of the dice I made in blender and I am still to make yours. I hope to finish the design before the new year comes and I share it with you. Please do expect the pixel art of a D20 dice specifically tailored for you."
     },
     {
         name: "Kofi",
@@ -76,7 +76,7 @@ const giftsData = [
         "I know the year has not been kind. So many things happened in our friend group and with Ryumi and all that but yet here we are still standing. Your strength is something I constantly try to evoke. Shit has been rough yet here you are, sharing laughter with everybody. I pray for your well-being. I know this shit has been super rough for you and I may not understand fully the magnitude of everything on your shoulders. All I can give is that knowledge and comfort that you can be vulnerable with us. That comfort that you know for a damn fact that we will stay by your side and support as much as we can. It is rough, but we are here to share the burden. <br><br>"+
         "I hope the year ahead will be better all around. Though may be a fool's wish but I want to be a fool. Everything will get better, and I know I will be here for you no matter what. To a better year ahead.",
         greeting: "In full, gay ass SLF love, ",
-        gift: "No Gift"
+        gift: "I still have to make ur gift and I wanted to do either a pixel art of fauna OR a blender model of naked fauna HAHAHAHA. Unfortunately as it would have it, I am dogshit at both and still trying to make time for it. I can only promise to make it but for sure it won't be available by the time you see this. I hope to do it by the new year."
     },
     {
         name: "Nico",
@@ -84,7 +84,7 @@ const giftsData = [
         message:"Nico, thank you for holding us together in SLF when we all know shit could have imploded harder. I really cannot thank you enough for your presence that keeps us close. Of all the people I know, you're the one that will tell, with no filter, what exactly is wrong. More than that, you give a suggestion or way on how to correct it. I've always been in awe as to how ang open mo magsalita. I think that's something I also want to emulate kasi I know it helps me and it might help others too. "+
         "The year has been so fucked in many ways. Like in our friend group and obviously, school life. But I am grateful na kahit mahirap, there's still time for all of us to laugh and have fun. <br><br> To a better year ahead",
         greeting: "In full, gay ass SLF love, ",
-        gift: "No Gift"
+        gift: "So the gift I wanted to give you is actually a GForm quiz of genshin r34. Now I still haven't gotten to it but I would like to be able to. For sure it won't be available by the time you see this but I will try to have it made before the new year comes."
     },
     {
         name: "Renzel",
@@ -93,14 +93,14 @@ const giftsData = [
         "I am always grateful whenever I get to team up with you because I know I do not have to carry the burden alone. I have someone that knows themself and me and our limits together. <br><br> But outside of school stuff, I'm happy that I get to have more time with you this year. Its really fun, especially having found that enjoyment that I had back then in wrestling. Maybe its because the Triple H era is actually so good but more than that I don't think I would have found it again if not for you. Same goes for fighting games. I think I would have not found my genuine love for competition especially for that if not for your influence. "+
         "<br><br>Thank you for your patience with me. I'm not necessarily smart nor do I easily get something the first time around. Your patience with me and allowing me to learn is something I truly appreciate kasi alam ko its your time and energy rin to spend. <br><br>The year has not been kind to us. So much shit has happened and I truly do think its a testament to our strength and bond na we're still here. Like we actually keep to get having fun amidst all the worries. <br><br>To a better year ahead.",
         greeting: "In full, gay ass SLF love, ",
-        gift: "No Gift"
+        gift: "I actually have a gift for you but I still am to make it. The gift I am still to make is a WWE gift, a GForms quiz and you have to answer who the wrestler is but only judging by their freakiest body part. (i.e., Rhea Ripley butt / biceps). Again I still have to make it but expect it before the new year comes."
     },
     {
         name: "Arky",
         code: "Fire and Ice",
         message: "Ok Arky so this may or may not be a long message. Now I know we don't really get to hang out a lot of the time and most of it is just usually DND. However, even with that, I appreciate the friendship I have cultivated with you since JHS. I hope that both of us can have more time to hang out more often, now in our third year of college. I think its possible but obviously, just hope for better outcomes this year. I wish you well in UP and your studies. <br><br>To a kinder year",
         greeting: "With special NP love, ",
-        gift: "No Gift"
+        gift: "I actually have a gift for you but as of right now, I can only show images of it. There is 2 actually. I tried 3D modelling dice and making an app but holy fucking shit was it hard. I still have the models but I cannot really put it in like another webapp or something. So here's the models in Blender <br><br> <a href = https://drive.google.com/drive/folders/1UNIefmxXMqrhKxLmVOWiIdzQLO8R3wfK?usp=sharing>Fire and Ice</a> <br><br>Actually I am still doing pixel art of the dice I made. Considering that its so hard to export via Blender with the textures, I just decided to try to make pixel art of the specific designs tailored for each of you. I'll try to have it done by the new year so please expect an update to this."
     },
     {
         name: "Pai",
@@ -110,7 +110,7 @@ const giftsData = [
         "Now as I said before, you're one of those people. I will try my best to initiate more with you as again, I really do want to be closer friends even outside of org or school work. <br><br>I would like to take the time to also thank you for trusting me. Frankly I do believe that allowing people to hear you out is something that only trust can accomplish. I am grateful that you can trust me with your turmoils and allow me to be an ear to listen. I commit to making sure your trust is not misplaced.<br><br>"+
         "Year has been rough and we're still pulling through. To a better year ahead",
         greeting: "Your fellow tribal chief, big SOB, Main Event and Day One Ish, ",
-        gift: "No Gift"
+        gift: "Actually I have a little gift for you. Its 5 Marcus Aurelius quotes that may or may not help you as I am not sure. This isn't like to force you into seeing Stoicism but rather just to see some ideas we live by. Not to force you into the philosophy but I guess I just want to let you know that there is always a different way to look at life. I am more than happy to provide a different way to view things and help in internalizing ideas.<br><br><a href = https://drive.google.com/file/d/1mzHHLKvrBQUEgrUgWk3P-SGG5Sf-Nx0-/view?usp=sharing>Marcus Aurelius Quotes</a>"
     },
     {
         name: "Kyle",
@@ -119,7 +119,7 @@ const giftsData = [
         "In all honesty, I still want to be able to play league with you and do random hangouts as we did. I truly do appreciate your presence. You are someone who is both serious and fun to be with and I never want to trade a frienship like that. I got to explain this to Pai and Charlize but I don't think I ever got to explain it to you. After something bad that happened with me in a course (CCINFOM LMFAO) I have become super choosy and picky of my friends. I mean I'm not getting any younger. And to some, maybe even most, my standard is so high and its just one sentece. I want to be friends with people I can grow old with. Truthfully I see that in you. I am in full belief that I want to grow old with you. Not in a gay way just be with you in the ride. " +
         "So I am thankful that I get to be your friend and I have proven myself capable of being one. You a ride or die. <br><br> To a great year ahead.",
         greeting: "THE BEST AATROX AND GANGPLANK PH, ",
-        gift: "No Gift"
+        gift: "I am still to make your gift from me but I would like to let you know its a GForms quiz on league but you have to guess the champion based on their freakiest characteristic / body part (i.e., Briar Feet). Though do expect it before the new year."
     },
     {
         name: "Hannah",
@@ -148,7 +148,7 @@ const giftsData = [
         message: "Ok so a lot to say here but firstly I would like to thank you. I am grateful for your friendship and I can never trade away the fact that I got to know you. I don't really do friends that much in a sense na very choosy talaga ako. I believe I explained this to you na but I really am thankful that I am someone you trust and you can call friend. Its really amazing how we got to hit it off very quickly in the term and like as much as the tribulations are, it was great that I got to meet you. "+
         "I respect you a lot and its great that there is one added person into the list of people I know I want to grow old with, outside of college, outside of professional life. I feel like I got to know a lot about you especially through Renzel and I wish I get to know more this coming year. <br><br> To a great year ahead.",
         greeting: "Literally the chillest guy of them all, ",
-        gift: "No Gift"
+        gift: "I am still to make your gift but I do plan for it to be my own drawing of Conan O'Brien and even try to color and shade. As I said I am still to make it but please expect it before the new year to come. "
     },
     {
         name: "Mikyla Taryn Kua Keng",
@@ -158,7 +158,7 @@ const giftsData = [
         "We don't really get to have a real proper chance of hanging out and thats honestly on me with how busy I make myself to be forgetting that there is a life to live. I have surrounded myself with people that can remind me of that, you included. <br><br> Yknow I don't think I ever got to tell you my standard for friendship. Truthfully I am very choosy and picky with my friends. And people say I have a high standard even if its just one sentence. Its that I want to be friends who I can see myself growing old with. I see that in you. I want to be able to grow old with you even outside of school and whatnot. <br><br>"+
         "I do not know how often you get to hear it but I want to be able to say it. I am proud of you. Shit has been rough and I will not pretend to understand how rought it must be for you but I still am so proud of you. We got this far and we can go further. No matter what, know that you have a friend with you in your journey. <br><br>To a better year ahead for all of us (P.S. I still have to go to Ying Ying Tea House)",
         greeting: "The best Cassidy player you would ever know, ",
-        gift: "No Gift"
+        gift: "Ok so I still have to make your gift actually but just to let you in and I would try to have this made before New Year's but I want to create pixel art of Lumity for you. Maybe even do some animation with it if I can."
     },
     {
         name: "Jason",
@@ -175,7 +175,7 @@ const giftsData = [
         "Anyway, I would also like to say that I have great respect for you. You're good at what you do and you have the hard work to back it up. I don't know if you'll try to disagree with that sentiment but from what I observe, you are putting in the work and effort into everything whilst being a college student. That is something truly admirable and respectable. I wish you great luck in your endeavors lalo na sa cosmatsu, the nearest one. <br><br>"+
         "I hope I get to hang out more with the CSB people this coming year. To a better year ahead.",
         greeting: "Literally the best Cassidy player ever to grace your games, ",
-        gift: "No Gift"
+        gift: "ANOTHER CUM TRIBUTE!!!!!! Jk, I actually don't know what else to give but like just support the Chips Dela YT merch. Like honest to god, all I can do is like buy the keychain or whatnot like thats as much of a gift I can give OR I can make pixel art of chips dela yt."
     },
     {
         name: "Ivan",
@@ -229,7 +229,7 @@ const giftsData = [
         code: "Umi",
         message: "Out of all the letters I had to make, this is without a doubt the hardest one. Not because of to whom I am writing this too but all the things that I have to say. I guess its best to start with a thank you. I have never gotten to thank you for your time. It may have, in most eyes and mine, ended in shit. That still doesn't take away the fact that you have put in time. Thank you. "+
         "<br><br>I changed my life in many ways. After everything, I got a stern talking to by some people closest to me and I turned to a life of Stoicism. I have been practicing it for over a year now and now people think I'm some wise old sage. I have become philsophical in manner and I turned to my philosophy before I thought of writing this letter. I think it is within good wisdom to finally close everything up with what I can say. I did not have that chance and more than that, I do not have the capacity to talk to you but I do have the capacity to tell you. <br>"+
-        "After changing my life and aligning with a philosophy, I can get to say that now I am happy. I truly am. I got to meet so many other talented people. I got to become friends with people that I know can help me reach greater heights. I have become a workhorse in organizations and they trust me a lot. And these people whom I can call friend stuck by me at my worst and trusted me every up and down along the way. With that being said, I got to get a standard. In fact, my own kuya had this standard. Both he and I are selective of our friends and truthfully I never got to understand that till late last year and earlier this year. "+
+        "After changing my life and aligning with a philosophy, I can get to say that now I am happy. I truly am. I got to meet so many other talented people. I got to become friends with people that I know can help me reach greater heights. I have become a workhorse in organizations and they trust me a lot. I have become an academic machine, grinding everyday for a better tomorrow for my family, my friends and myself. And these people whom I can call friend stuck by me at my worst and trusted me every up and down along the way. With that being said, I got to get a standard. In fact, my own kuya had this standard. Both he and I are selective of our friends and truthfully I never got to understand that till late last year and earlier this year. "+
         "<br>I only become friends with people whom I can see myself growing old with. Truthfully Tanate, with the wisdom I have now, I do not see that with you. I do not see myself wanting to grow old with you. I do not see myself improving and becoming better in any aspect of life with you around. As possibly hurtful it is to say, I cannot have you in my life as I see that I am being weighed down.<br>"+
         "<br>I guess it is best to thank you still for breaking everything off. Maybe it was a blessing that I did not come to understand till later. Suffice to say however, I am happier now. I am better now. I got to love truly once again. Not with rose-tinted glasses but with my fibre of being. <br><br>As shitty as everything was, I had my own problems and toxicity too. I will not disagree with that sentiment. But I am better now and all I can do is wish you happiness all the same.",
         greeting: "Praying for your happiness, ",

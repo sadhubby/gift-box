@@ -243,6 +243,13 @@ const giftsData = [
         greeting: "With brotherly love, ",
         gift: "No Gift"
     },
+    {
+        name: "Liam",
+        code: "NIGGA",
+        message: "Liam, thank you so much for your presence this year. I know shit has been rough and I really am trying not to be sappy and shit but thank you. I know we don't really get to see eye to eye on some shit. But I'd like you to know it won't really deter me from your inputs. Honest to the god above, I do consider the words you say, especially when shit gets serious, with utmost consideration. <br><br>Man, its been a ride and theres still shit to come ahead of us. Firstly with STSWENG not being available lmfao. All we can do is wish for better. To a better year ahead of us.",
+        greeting: "The gayest nigga you know, ",
+        gift: "No Gift"
+    },
 ]
 
 module.exports = giftsData;
